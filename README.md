@@ -63,7 +63,7 @@ This repository contains my structured implementation of **Advanced Data Structu
 * Trie ✅
 * Compressed Trie ✅
 * Suffix Tree ✅
-* Suffix Array (if inside GI-AI-SC / implemented) 🔄
+* Suffix Array ✅
 
 **Status:**
 
@@ -126,7 +126,6 @@ advanced-data-structures-in-c/
 ├── Tries/
 ├── Compressed_Tries/
 ├── Suffix_Tree/
-├── GI-AI-SC/
 │
 ├── Skip_List/
 │
