@@ -1,83 +1,150 @@
 # 📚 Advanced Data Structures in C
 
-This repository contains my implementation and practice of **Advanced Data Structures using C**.
-It serves as a structured learning log, coding reference, and revision guide.
+This repository contains my structured implementation and practice of **Advanced Data Structures (ADS) using C**, aligned with academic syllabus and industry-level problem solving.
+
+It serves as:
+
+* 📘 Learning journal
+* 💻 Code reference
+* 📊 Progress tracker
+* 🎯 Placement preparation resource
 
 ---
 
-## 🎯 Objectives
+## 🎯 Learning Goals
 
-* Strengthen understanding of core and advanced data structures
-* Implement all structures from scratch in **C**
-* Analyze time and space complexity
-* Practice problem-solving and debugging
-* Build a solid foundation for **placements + system design + competitive coding**
-
----
-
-## 🧠 Topics Covered (Progress Tracker)
-
-### 🔰 Basic Data Structures
-
-* [x] Arrays
-* [x] Linked List (Singly)
-* [x] Linked List (Doubly)
-* [x] Stack (Array + Linked List)
-* [x] Queue (Linear + Circular)
+* Master advanced data structures from scratch
+* Understand **time & space complexity deeply**
+* Build strong problem-solving skills
+* Prepare for **technical interviews + system design**
 
 ---
 
-### 🌲 Trees
-
-* [x] Binary Tree
-* [x] Binary Search Tree (BST)
-* [ ] AVL Tree
-* [ ] Red-Black Tree
-* [ ] Segment Tree
-* [ ] Fenwick Tree (Binary Indexed Tree)
+## 🧠 Syllabus-wise Progress Tracker
 
 ---
 
-### ⚡ Advanced Structures
+### 🌲 Unit 1: Advanced Trees and Applications
+
+**Topics:**
+
+* Threaded Binary Tree
+* AVL Tree
+* Red-Black Tree
+* Heap Tree ✅
+* Huffman Tree
+* B-Tree
+* B+ Tree
+* Splay Tree
+* Van Emde Boas Tree
+* Fusion Tree
+* Dynamic Finger Search Trees
+
+**Status:**
+
+* [x] Heap Tree
+* [ ] Remaining Topics
+
+---
+
+### ⚡ Unit 2: Priority Queues and Heaps
+
+**Topics:**
+
+* Priority Queue (PQ) ✅
+* Double Ended Priority Queue (DEPQ) ✅
+* Leftist Heap ✅
+* Binomial Heap ✅
+* Fibonacci Heap
+* Skew Heap ✅
+* Pairing Heap ✅
+
+**Status:**
+
+* [x] PQ / DEPQ
+* [x] Leftist Heap
+* [x] Binomial Heap
+* [x] Skew Heap
+* [x] Pairing Heap
+* [ ] Fibonacci Heap
+
+---
+
+### 🔤 Unit 3: Data Structures for Strings
+
+**Topics:**
+
+* String Searching Basics
+* DAWG
+* Position Heaps
+* Trie ✅
+* Compressed Trie ✅
+* Suffix Tree ✅
+* Suffix Array ✅
+* Dictionaries with Errors
+
+**Status:**
+
+* [x] Trie
+* [x] Compressed Trie
+* [x] Suffix Tree
+* [x] Suffix Array
+* [ ] Remaining Topics
+
+---
+
+### 🎲 Unit 4: Randomized Data Structures
+
+**Topics:**
+
+* Probability Basics
+* Skip List ✅
+* Treap
+
+**Status:**
 
 * [x] Skip List
-* [ ] Trie
-* [ ] Heap (Min / Max)
-* [ ] Disjoint Set (Union-Find)
+* [ ] Treap
 
 ---
 
-### 🌐 Graphs
+### 🌍 Unit 5: Multidimensional Spatial Data Structures
 
-* [ ] Graph Representation (Adjacency List / Matrix)
-* [ ] BFS (Breadth First Search)
-* [ ] DFS (Depth First Search)
-* [ ] Dijkstra’s Algorithm
-* [ ] Floyd Warshall
-* [ ] Minimum Spanning Tree (Kruskal / Prim)
+**Topics:**
 
----
+* (To be covered)
 
-### 🔍 Hashing
+**Status:**
 
-* [ ] Hash Table (Chaining)
-* [ ] Hash Table (Open Addressing)
+* [ ] Not Started
 
 ---
 
-## 📁 Folder Structure
+### 🧩 Unit 6: Miscellaneous Data Structures
 
-```bash
-Advanced-Data-Structures-in-C/
+**Topics:**
+
+* (To be covered)
+
+**Status:**
+
+* [ ] Not Started
+
+---
+
+## 📁 Repository Structure
+
+```bash id="repo-structure"
+advanced-data-structures-in-c/
 │
-├── Arrays/
-├── LinkedList/
-├── Stack/
-├── Queue/
-├── Trees/
+├── Heaps/
+├── Priority_Queues/
 ├── Skip_List/
+├── Tries/
+├── Suffix_Tree/
+├── Suffix_Array/
+├── Trees/
 ├── Graphs/
-├── Hashing/
 └── README.md
 ```
 
@@ -87,46 +154,49 @@ Advanced-Data-Structures-in-C/
 
 * Language: **C**
 * Compiler: GCC
-* Platform: Windows / Linux
+* Concepts: Memory Management, Pointers, Recursion, Optimization
 
 ---
 
 ## 🚀 How to Run
 
-```bash
+```bash id="run-code"
 gcc filename.c -o output
 ./output
 ```
 
 ---
 
-## 📈 Progress Tracking
+## 📊 Current Progress Summary
 
-| Topic       | Status     |
-| ----------- | ---------- |
-| Basic DS    | ✅ Done     |
-| Trees       | 🔄 Ongoing |
-| Advanced DS | 🔄 Ongoing |
-| Graphs      | ⏳ Pending  |
-| Hashing     | ⏳ Pending  |
-
----
-
-## 🧩 Key Learnings
-
-* Pointer manipulation and memory management
-* Efficient data organization
-* Algorithm optimization techniques
-* Debugging complex structures like Skip Lists
+| Unit | Topic Area             | Progress         |
+| ---- | ---------------------- | ---------------- |
+| 1    | Advanced Trees         | 🔄 Partial       |
+| 2    | PQ & Heaps             | ✅ Strong         |
+| 3    | String Data Structures | 🔄 Good Progress |
+| 4    | Randomized DS          | 🔄 Partial       |
+| 5    | Spatial DS             | ⏳ Pending        |
+| 6    | Miscellaneous          | ⏳ Pending        |
 
 ---
 
-## 📌 Future Goals
+## 🧠 Key Learnings So Far
 
-* Complete all advanced structures
-* Add complexity analysis for each implementation
-* Add test cases and edge case handling
-* Convert some implementations into reusable libraries
+* Efficient priority queue implementations (heap variants)
+* Advanced heap structures and their trade-offs
+* String indexing and fast search (Trie, Suffix structures)
+* Randomized balancing (Skip Lists)
+* Memory-efficient pointer manipulation
+
+---
+
+## 📌 Next Targets
+
+* AVL & Red-Black Trees
+* Fibonacci Heap
+* Treap
+* B-Trees / B+ Trees
+* DAWG & advanced string structures
 
 ---
 
@@ -139,7 +209,7 @@ B.Tech AI & ML @ VIT Pune
 
 ## ⭐ Notes
 
-This repository is continuously updated as I learn new concepts.
-Feel free to explore, fork, and suggest improvements!
+This repository is continuously updated as I progress through the ADS syllabus.
+Each implementation focuses on clarity, efficiency, and correctness.
 
 ---
