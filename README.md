@@ -1,13 +1,8 @@
 # 📚 Advanced Data Structures in C
 
-This repository contains my structured implementation and practice of **Advanced Data Structures (ADS) using C**, aligned with academic syllabus and industry-level problem solving.
+This repository contains my structured implementation of **Advanced Data Structures (ADS) using C**, aligned with academic syllabus and practical problem solving.
 
-It serves as:
-
-* 📘 Learning journal
-* 💻 Code reference
-* 📊 Progress tracker
-* 🎯 Placement preparation resource
+> ⚠️ Note: Some topics are implemented but not yet revised — they will be marked completed after proper revision.
 
 ---
 
@@ -15,8 +10,8 @@ It serves as:
 
 * Master advanced data structures from scratch
 * Understand **time & space complexity deeply**
-* Build strong problem-solving skills
-* Prepare for **technical interviews + system design**
+* Strengthen problem-solving and debugging skills
+* Prepare for **placements + system design + interviews**
 
 ---
 
@@ -26,24 +21,20 @@ It serves as:
 
 ### 🌲 Unit 1: Advanced Trees and Applications
 
-**Topics:**
+**Topics Covered in Repo (Structure Created):**
 
-* Threaded Binary Tree
-* AVL Tree
-* Red-Black Tree
-* Heap Tree ✅
-* Huffman Tree
-* B-Tree
-* B+ Tree
-* Splay Tree
-* Van Emde Boas Tree
-* Fusion Tree
-* Dynamic Finger Search Trees
+* AVL Tree 🔄
+* Red-Black Tree 🔄
+* Threaded Binary Tree 🔄
+* B+ Tree 🔄
+* Splay Tree 🔄
+* Binary Tree (BT) 🔄
+* Threaded BST (TBST) 🔄
 
 **Status:**
 
-* [x] Heap Tree
-* [ ] Remaining Topics
+* 🔄 Implemented but not revised
+* ⏳ Will be marked complete after revision
 
 ---
 
@@ -53,20 +44,15 @@ It serves as:
 
 * Priority Queue (PQ) ✅
 * Double Ended Priority Queue (DEPQ) ✅
+* Heap (Basic) ✅
 * Leftist Heap ✅
 * Binomial Heap ✅
-* Fibonacci Heap
 * Skew Heap ✅
 * Pairing Heap ✅
 
 **Status:**
 
-* [x] PQ / DEPQ
-* [x] Leftist Heap
-* [x] Binomial Heap
-* [x] Skew Heap
-* [x] Pairing Heap
-* [ ] Fibonacci Heap
+* [x] Completed and revised
 
 ---
 
@@ -74,23 +60,15 @@ It serves as:
 
 **Topics:**
 
-* String Searching Basics
-* DAWG
-* Position Heaps ✅
 * Trie ✅
 * Compressed Trie ✅
 * Suffix Tree ✅
-* Suffix Array ✅
-* Dictionaries with Errors
+* Suffix Array (if inside GI-AI-SC / implemented) 🔄
 
 **Status:**
 
-* [x] Position Heaps
-* [x] Trie
-* [x] Compressed Trie
-* [x] Suffix Tree
-* [x] Suffix Array
-* [ ] Remaining Topics
+* [x] Core topics completed
+* 🔄 Some parts pending revision
 
 ---
 
@@ -98,54 +76,61 @@ It serves as:
 
 **Topics:**
 
-* Probability Basics
 * Skip List ✅
-* Treap
+* Treap ⏳
 
 **Status:**
 
-* [x] Skip List
-* [ ] Treap
+* [x] Skip List completed
+* [ ] Treap pending
 
 ---
 
 ### 🌍 Unit 5: Multidimensional Spatial Data Structures
 
-**Topics:**
-
-* (To be covered)
-
 **Status:**
 
-* [ ] Not Started
+* ⏳ Not Started
 
 ---
 
 ### 🧩 Unit 6: Miscellaneous Data Structures
 
-**Topics:**
-
-* (To be covered)
-
 **Status:**
 
-* [ ] Not Started
+* ⏳ Not Started
 
 ---
 
 ## 📁 Repository Structure
 
-```bash id="repo-structure"
+```bash id="repo-structure-updated"
 advanced-data-structures-in-c/
 │
-├── Heaps/
-├── Priority_Queues/
-├── Skip_List/
+├── AVL/
+├── RBTree/
+├── BT/
+├── TBST/
+├── TBT/
+├── SplayTree/
+├── B Plus Minus Tree/
+│
+├── Heap&PriorityQueue/
+├── DEPQ/
+├── LeftistTree/
+├── BinomialTree&Heap/
+├── Skewed_Heap/
+├── Pairing_Heap/
+├── Position_Heap/
+│
 ├── Tries/
+├── Compressed_Tries/
 ├── Suffix_Tree/
-├── Suffix_Array/
-├── Trees/
-├── Graphs/
+├── GI-AI-SC/
+│
+├── Skip_List/
+│
+├── .vscode/
 └── README.md
 ```
 
@@ -155,13 +140,13 @@ advanced-data-structures-in-c/
 
 * Language: **C**
 * Compiler: GCC
-* Concepts: Memory Management, Pointers, Recursion, Optimization
+* Concepts: Pointers, Memory Management, Recursion, Optimization
 
 ---
 
 ## 🚀 How to Run
 
-```bash id="run-code"
+```bash id="run-code-updated"
 gcc filename.c -o output
 ./output
 ```
@@ -170,34 +155,34 @@ gcc filename.c -o output
 
 ## 📊 Current Progress Summary
 
-| Unit | Topic Area             | Progress         |
-| ---- | ---------------------- | ---------------- |
-| 1    | Advanced Trees         | 🔄 Partial       |
-| 2    | PQ & Heaps             | ✅ Strong         |
-| 3    | String Data Structures | 🔄 Good Progress |
-| 4    | Randomized DS          | 🔄 Partial       |
-| 5    | Spatial DS             | ⏳ Pending        |
-| 6    | Miscellaneous          | ⏳ Pending        |
+| Unit | Area           | Status                            |
+| ---- | -------------- | --------------------------------- |
+| 1    | Advanced Trees | 🔄 Implemented (Revision Pending) |
+| 2    | PQ & Heaps     | ✅ Strong                          |
+| 3    | String DS      | 🔄 Mostly Done                    |
+| 4    | Randomized DS  | 🔄 Partial                        |
+| 5    | Spatial DS     | ⏳ Pending                         |
+| 6    | Miscellaneous  | ⏳ Pending                         |
 
 ---
 
-## 🧠 Key Learnings So Far
+## 🧠 Key Learnings
 
-* Efficient priority queue implementations (heap variants)
-* Advanced heap structures and their trade-offs
-* String indexing and fast search (Trie, Suffix structures)
-* Randomized balancing (Skip Lists)
-* Memory-efficient pointer manipulation
+* Advanced heap variants and trade-offs
+* Efficient priority queue implementations
+* Fast string search structures (Trie, Suffix Tree)
+* Randomized balancing (Skip List)
+* Deep pointer and memory handling in C
 
 ---
 
-## 📌 Next Targets
+## 📌 Next Steps
 
-* AVL & Red-Black Trees
-* Fibonacci Heap
-* Treap
-* B-Trees / B+ Trees
-* DAWG & advanced string structures
+* Revise AVL & Red-Black Trees
+* Implement Treap
+* Complete B / B+ Trees
+* Cover DAWG & advanced string structures
+* Add complexity analysis for each implementation
 
 ---
 
@@ -210,7 +195,7 @@ B.Tech AI & ML @ VIT Pune
 
 ## ⭐ Notes
 
-This repository is continuously updated as I progress through the ADS syllabus.
-Each implementation focuses on clarity, efficiency, and correctness.
+This repository is actively maintained as part of my **Advanced Data Structures learning journey**.
+Topics are marked complete only after full revision and conceptual clarity.
 
 ---
