@@ -76,7 +76,7 @@ It serves as:
 
 * String Searching Basics
 * DAWG
-* Position Heaps
+* Position Heaps ✅
 * Trie ✅
 * Compressed Trie ✅
 * Suffix Tree ✅
@@ -85,6 +85,7 @@ It serves as:
 
 **Status:**
 
+* [x] Position Heaps
 * [x] Trie
 * [x] Compressed Trie
 * [x] Suffix Tree
