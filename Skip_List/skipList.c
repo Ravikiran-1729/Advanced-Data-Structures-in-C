@@ -93,6 +93,7 @@ Node* search(SkipList* list, int key){
                 curr = curr->forward[i];
         }
     }
+    
 
     curr = curr->forward[0];
 
@@ -101,6 +102,7 @@ Node* search(SkipList* list, int key){
     }
     return NULL;
 }
+
 
 
 void deleteNode(SkipList* list, int key){
