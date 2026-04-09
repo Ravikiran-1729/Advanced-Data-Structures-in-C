@@ -4,7 +4,7 @@
 #include<time.h>
 
 #define MAX_LEVEL 3
-#define P 0.6
+#define P 0.5
 
 typedef struct  Node
 {
@@ -85,20 +85,19 @@ void insert(SkipList* list, int key){
     }
 }
 
-
 Node* search(SkipList* list, int key){
     Node* curr = list->head;
 
-    for(int i = list->level; i >= 0; i--){
-        while (curr->forward[i] != NULL )
-        {
-            if(curr->forward[i]->key == key){
-                return curr->forward[i];
-            }
-            if(curr->forward[i]->key < key){
+    for(int i = list->level; i>= 0; i--){
+        while (curr->forward[i] != NULL && curr->forward[i]->key < key){
                 curr = curr->forward[i];
-            }
         }
+    }
+
+    curr = curr->forward[0];
+
+    if(curr != NULL && curr->key == key){
+        return curr;
     }
     return NULL;
 }
