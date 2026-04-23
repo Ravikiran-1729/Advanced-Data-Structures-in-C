@@ -58,9 +58,8 @@ Where:
 
 Final objective:
 
-\[
-\text{Minimize } f = W + P_m
-\]
+<img width="288" height="69" alt="image" src="https://github.com/user-attachments/assets/bc3493cd-f944-48c5-a0d8-b64b49f6f3a1" />
+
 
 Where \(P_m\) is manufacturability penalty.
 
@@ -69,39 +68,20 @@ Where \(P_m\) is manufacturability penalty.
 ## 5. Constraints
 
 ### 5.1 Fatigue Constraint (Modified Goodman)
-
-\[
-d_i \ge d_{req,i}
-\]
-
-\[
-d_i = \left[\frac{32N}{\pi}
-\left(
-\frac{\sqrt{(K_fM_a)^2+\frac{3}{4}(K_{fs}T_a)^2}}{S_e}
-+
-\frac{\sqrt{(K_{fm}M_m)^2+\frac{3}{4}(K_{fsm}T_m)^2}}{S_{ut}}
-\right)\right]^{1/3}
-\]
+<img width="890" height="188" alt="image" src="https://github.com/user-attachments/assets/40abf01f-3f6b-4799-9dee-a4efbac49cd0" />
 
 ---
 
 ### 5.2 Deflection Constraint
 
-\[
-\delta_{gear} \le 0.005 \text{ in}
-\]
+<img width="249" height="70" alt="image" src="https://github.com/user-attachments/assets/b18a631e-60fd-47b2-87e4-ce6829b760b7" />
 
 ---
 
 ### 5.3 Geometric Constraints
 
-\[
-d_2 - d_1 \ge 0.0787
-\]
+<img width="277" height="108" alt="image" src="https://github.com/user-attachments/assets/843f86e6-71d1-4151-b193-cd50c5a6e3d7" />
 
-\[
-d_2 - d_3 \ge 0.0787
-\]
 
 ---
 
@@ -111,31 +91,20 @@ d_2 - d_3 \ge 0.0787
 - Tmax = 3500 lb-in  
 - Tmin = 875 lb-in  
 
-\[
-T_a = \frac{T_{max}-T_{min}}{2}
-\]
-
-\[
-T_m = \frac{T_{max}+T_{min}}{2}
-\]
+<img width="324" height="152" alt="image" src="https://github.com/user-attachments/assets/40437e48-1b51-4887-ade3-5848310f96de" />
 
 ---
 
 ### Gear Forces:
-\[
-F_t = \frac{2T}{D}
-\]
 
-\[
-F_r = F_t \tan \phi
-\]
+<img width="278" height="137" alt="image" src="https://github.com/user-attachments/assets/cd5810de-a1dd-46fe-9f30-6aaf7af3f383" />
+
 
 ---
 
 ### Pulley Forces:
-\[
-F = \frac{T}{r}
-\]
+
+<img width="175" height="94" alt="image" src="https://github.com/user-attachments/assets/a8345f9d-f225-44b6-8e5b-408962413650" />
 
 ---
 
