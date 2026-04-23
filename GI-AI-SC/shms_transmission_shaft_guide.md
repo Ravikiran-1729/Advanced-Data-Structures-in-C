@@ -133,25 +133,37 @@ Steps:
 
 ---
 
-## 9. Flowchart
-Start
-↓
-Initialize homes & snails
-↓
-Evaluate fitness
-↓
-Compute fecundity
-↓
-Selection
-↓
-Mating + movement
-↓
-Update population
-↓
-Check convergence
-↓
-End
+## Methodology Flowchart
 
+```mermaid
+flowchart TD
+    A([Start]) --> B[Define stepped transmission shaft problem]
+    B --> C[Set assumptions, material properties, load values, and bounds]
+    C --> D[Initialize SHMS parameters]
+    D --> E[Generate homes and snails]
+    E --> F[Evaluate each candidate design]
+
+    F --> G[Compute shaft weight]
+    G --> H[Compute transmitted forces and bending moments]
+    H --> I[Compute required diameters using Modified Goodman criterion]
+    I --> J[Compute gear-point deflection using beam theory]
+    J --> K[Form penalized objective with constraint violations]
+
+    K --> L[Compute fecundity index]
+    L --> M[Select promising snails using roulette wheel]
+    M --> N[Apply mating move]
+    N --> O[Apply trail-following / homing move]
+    O --> P[Generate updated candidate solutions]
+    P --> Q[Greedy replacement of better solutions]
+    Q --> R[Update home positions]
+
+    R --> S{Stopping criterion met?}
+    S -- No --> F
+    S -- Yes --> T[Obtain best feasible shaft design]
+    T --> U[Validate final design at higher resolution]
+    U --> V[Generate convergence plots and result tables]
+    V --> W([End])
+```
 
 ---
 
