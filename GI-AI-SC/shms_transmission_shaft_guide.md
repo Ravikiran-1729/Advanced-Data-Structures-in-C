@@ -50,9 +50,7 @@ Thus, the problem is formulated as a **constrained nonlinear optimization proble
 
 ## 4. Objective Function
 
-\[
-W = \rho \frac{\pi}{4}(L_1 d_1^2 + L_2 d_2^2 + L_3 d_3^2)
-\]
+<img width="387" height="76" alt="image" src="https://github.com/user-attachments/assets/fd7c4483-ed07-4fad-9945-b10906854a5f" />
 
 Where:
 - ρ = 0.2834 lb/in³  
